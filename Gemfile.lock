@@ -1,0 +1,66 @@
+PATH
+  remote: .
+  specs:
+    synchro (0.0.1)
+      awesome_print (~> 1.6.1)
+      nokogiri (~> 1.6.7)
+      open_uri_redirections (~> 0.2.1)
+      rake (~> 11.1.2)
+      redis (~> 3.2.2)
+      rubyzip (~> 1.2.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.3.8)
+    awesome_print (1.6.1)
+    byebug (5.0.0)
+      columnize (= 0.9.0)
+    colorize (0.7.7)
+    columnize (0.9.0)
+    crack (0.4.2)
+      safe_yaml (~> 1.0.0)
+    diff-lcs (1.2.5)
+    fakeredis (0.5.0)
+      redis (~> 3.0)
+    mini_portile2 (2.0.0)
+    nokogiri (1.6.7.2)
+      mini_portile2 (~> 2.0.0.rc2)
+    open_uri_redirections (0.2.1)
+    rake (11.1.2)
+    redis (3.2.2)
+    rspec (3.4.0)
+      rspec-core (~> 3.4.0)
+      rspec-expectations (~> 3.4.0)
+      rspec-mocks (~> 3.4.0)
+    rspec-core (3.4.4)
+      rspec-support (~> 3.4.0)
+    rspec-expectations (3.4.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.4.0)
+    rspec-mocks (3.4.1)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.4.0)
+    rspec-support (3.4.1)
+    rubyzip (1.2.0)
+    safe_yaml (1.0.4)
+    vcr (2.9.3)
+    webmock (1.21.0)
+      addressable (>= 2.3.6)
+      crack (>= 0.3.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  awesome_print (~> 1.6.1)
+  byebug (~> 5.0.0)
+  colorize (~> 0.7.7)
+  fakeredis (~> 0.5.0)
+  rspec (~> 3.4.0)
+  synchro!
+  vcr (~> 2.9.3)
+  webmock (~> 1.21.0)
+
+BUNDLED WITH
+   1.11.2

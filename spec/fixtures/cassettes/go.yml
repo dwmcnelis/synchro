@@ -1,0 +1,202 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://bitly.com/nuvi-plz
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Fri, 13 May 2016 18:04:27 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - private, max-age=90
+      Location:
+      - http://feed.omgili.com/5Rh5AMTrc4Pv/mainstream/posts/
+      Set-Cookie:
+      - _bit=g4di4r-ef0d96db4fb8879f2f-00o; Domain=bitly.com; Expires=Wed, 09 Nov
+        2016 18:04:27 UTC
+    body:
+      encoding: UTF-8
+      string: |-
+        <html>
+        <head><title>Bitly</title></head>
+        <body><a href="http://feed.omgili.com/5Rh5AMTrc4Pv/mainstream/posts/">moved here</a></body>
+        </html>
+    http_version:
+  recorded_at: Fri, 13 May 2016 18:04:27 GMT
+- request:
+    method: get
+    uri: http://feed.omgili.com/5Rh5AMTrc4Pv/mainstream/posts/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 13 May 2016 18:04:27 GMT
+      Server:
+      - Apache/2.2.22 (Ubuntu)
+      Vary:
+      - Accept-Encoding
+      Content-Length:
+      - '12251'
+      Content-Type:
+      - text/html;charset=UTF-8
+      Via:
+      - 1.1 feed.omgili.com
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: |
+        <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+        <html>
+         <head>
+          <title>Index of /5Rh5AMTrc4Pv/mainstream/posts</title>
+         </head>
+         <body>
+        <h1>Index of /5Rh5AMTrc4Pv/mainstream/posts</h1>
+        <table><tr><th><a href="?C=N;O=D">Name</a></th><th><a href="?C=M;O=A">Last modified</a></th><th><a href="?C=S;O=A">Size</a></th><th><a href="?C=D;O=A">Description</a></th></tr><tr><th colspan="4"><hr></th></tr>
+        <tr><td><a href="/5Rh5AMTrc4Pv/mainstream/">Parent Directory</a></td><td>&nbsp;</td><td align="right">  - </td><td>&nbsp;</td></tr>
+        <tr><td><a href="1462899453973.zip">1462899453973.zip</a></td><td align="right">10-May-2016 21:04  </td><td align="right">9.9M</td><td>&nbsp;</td></tr>
+        <tr><th colspan="4"><hr></th></tr>
+        </table>
+        </body></html>
+    http_version:
+  recorded_at: Fri, 13 May 2016 18:04:27 GMT
+- request:
+    method: get
+    uri: http://feed.omgili.com/5Rh5AMTrc4Pv/mainstream/posts/1462899453973.zip
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - SimpleHTTP/0.6 Python/2.7.10
+      Date:
+      - Fri, 13 May 2016 18:04:28 GMT
+      Content-Type:
+      - application/zip
+      Content-Length:
+      - '3236'
+      Last-Modified:
+      - Fri, 13 May 2016 18:02:38 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        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
+    http_version:
+  recorded_at: Fri, 13 May 2016 18:04:28 GMT
+recorded_with: VCR 2.9.3
